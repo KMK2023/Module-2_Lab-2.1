@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Creating forms</title>
+    <h1>Creating forms</h1>
+
+
+</head>
+<body>
+    <h2><u>HTML elements - Forms - form, input, label, select, option, button</u></h2>
+
+  <form method="POST" action="http://localhost:3000/profile">
+    <form>
+      First Name: <input type="text" name="firstname" placeholder="Enter your first name" required">
+      <br>
+      <br>
+      Last Name: <input type="text" name="lastname" placeholder="Enter your last name" required">
+      <br>
+      <br>
+      Second Name: <input type="text" name="secondname" placeholder="Enter your second name" required:">;
+      <br>
+      <br>
+
+      Email: <input type="email" name="email" placeholder="Enter your email" required">
+      <br>
+      <br>
+      Password: <input type="password" name="password" placeholder="Enter your password" required">
+      <br>
+      <br>
+      Description: <textarea name="descript" rows="3" cols="30" placeholder="Enter your description here" required">
+        </textarea>
+      <br>
+      <br>
+      Gender: <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female">
+      Female
+      <br>
+      <br>
+      Profession: <input type="checkbox" name="Engineer" value="Engineer"> Engineer
+      <input type="checkbox" name="Doctor" value="Doctor"> Doctor
+      <input type="checkbox" name="Other Profession" value="Other"> Other Profession
+      <br>
+      <br>
+      Experience Level: <placeholder>Choose an experience:</label>
+        <select id="Experience" name="Experience">
+          <option value="Beginner">Beginner</option>
+          <option value="Intermediate">Intermediate</option>
+          <option value="Expert">Expert</option>
+        </select>
+
+        <br>
+        <br>
+        <button type="button"> Submit </button>
+        <input type="reset" value="Reset">
+    </form>
+
+    
+</body>
+</html>
